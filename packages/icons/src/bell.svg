@@ -1,0 +1,120 @@
+<svg id="bell-icon" xmlns="http://www.w3.org/2000/svg" width="200" height="160" viewBox="0 0 100 160">
+    <style>
+        /* <![CDATA[ */
+            #bell-icon {
+                position: absolute;
+                top: 50%;
+                margin-top: -50px
+            }
+
+            .crown {
+                fill: none;
+                stroke: #AA9A3E;
+                stroke-width: 2;
+                stroke-miterlimit: 10
+            }
+
+            .clapper {
+                fill: #AA9A3E;
+            }
+
+            .bell-right {
+                fill: #E2CD52;
+            }
+
+            .bell-left {
+                fill: #FFEC5A;
+            }
+
+            .group-clapper {
+                -webkit-transform: translateX(0px);
+            }
+
+            #bell-icon:hover .group-clapper {
+                -webkit-animation: clapper-ring2 8s 0s ease-in-out infinite;
+                -webkit-transform-origin: 50% 4px;
+            }
+
+            @-webkit-keyframes clapper-ring {
+                0% { -webkit-transform: translateX(3px); }
+                100% { -webkit-transform: translateX(-3px); }
+            }
+
+            @-webkit-keyframes clapper-ring2 {
+                0% { -webkit-transform: rotate(0); }
+                1% { -webkit-transform: rotate(30deg) translateX(3px); }
+                3% { -webkit-transform: rotate(-28deg) translateX(-3px); }
+                5% { -webkit-transform: rotate(34deg) translateX(3px); }
+                7% { -webkit-transform: rotate(-32deg) translateX(-3px); }
+                9% { -webkit-transform: rotate(30deg) translateX(3px); }
+                11% { -webkit-transform: rotate(-28deg) translateX(-3px); }
+                13% { -webkit-transform: rotate(26deg) translateX(3px); }
+                15% { -webkit-transform: rotate(-24deg) translateX(-3px); }
+                17% { -webkit-transform: rotate(22deg) translateX(3px); }
+                19% { -webkit-transform: rotate(-20deg) translateX(-3px); }
+                21% { -webkit-transform: rotate(18deg) translateX(3px); }
+                23% { -webkit-transform: rotate(-16deg) translateX(-3px); }
+                25% { -webkit-transform: rotate(14deg) translateX(3px); }
+                27% { -webkit-transform: rotate(-12deg) translateX(-3px); }
+                29% { -webkit-transform: rotate(10deg) translateX(3px); }
+                31% { -webkit-transform: rotate(-8deg) translateX(-3px); }
+                33% { -webkit-transform: rotate(6deg) translateX(3px); }
+                35% { -webkit-transform: rotate(-4deg) translateX(-3px); }
+                37% { -webkit-transform: rotate(2deg) translateX(3px); }
+                39% { -webkit-transform: rotate(-1deg) translateX(-3px); }
+                41% { -webkit-transform: rotate(1deg) translateX(3px); }
+                43% { -webkit-transform: rotate(0); }
+                100% { -webkit-transform: rotate(0); }
+            }
+
+            @-webkit-keyframes bell-ring2 {
+                0% { -webkit-transform: rotate(0); }
+                1% { -webkit-transform: rotate(30deg); }
+                3% { -webkit-transform: rotate(-28deg); }
+                5% { -webkit-transform: rotate(34deg); }
+                7% { -webkit-transform: rotate(-32deg); }
+                9% { -webkit-transform: rotate(30deg); }
+                11% { -webkit-transform: rotate(-28deg); }
+                13% { -webkit-transform: rotate(26deg); }
+                15% { -webkit-transform: rotate(-24deg); }
+                17% { -webkit-transform: rotate(22deg); }
+                19% { -webkit-transform: rotate(-20deg); }
+                21% { -webkit-transform: rotate(18deg); }
+                23% { -webkit-transform: rotate(-16deg); }
+                25% { -webkit-transform: rotate(14deg); }
+                27% { -webkit-transform: rotate(-12deg); }
+                29% { -webkit-transform: rotate(10deg); }
+                31% { -webkit-transform: rotate(-8deg); }
+                33% { -webkit-transform: rotate(6deg); }
+                35% { -webkit-transform: rotate(-4deg); }
+                37% { -webkit-transform: rotate(2deg); }
+                39% { -webkit-transform: rotate(-1deg); }
+                41% { -webkit-transform: rotate(1deg); }
+                43% { -webkit-transform: rotate(0); }
+                100% { -webkit-transform: rotate(0); }
+            }
+
+            .group-bell {
+                -webkit-transform: rotate(0);
+            }
+
+            #bell-icon:hover .group-bell {
+                -webkit-animation: bell-ring2 8s 0s ease-in-out infinite;
+                -webkit-transform-origin: 50% 4px;
+            }
+
+            @-webkit-keyframes bell-ring {
+                0% { -webkit-transform: rotate(27deg); }
+                100% { -webkit-transform: rotate(-27deg); }
+            }
+        /* ]]> */
+    </style>
+    <g class="group-clapper">
+        <circle class="clapper" cx="49.7" cy="93" r="10"/>
+    </g>
+    <g class="group-bell">
+        <circle class="crown" cx="49.5" cy="8.5" r="7.5"/>
+        <path class="bell-right" d="M98.81,86.033c-0.095-0.021-0.192-0.03-0.293-0.031C92.036,85.253,87,79.678,87,73V46 C87,25.565,70.435,9,50,9S13,25.565,13,46v27c0,6.652-4.999,12.222-11.443,13.006C1.537,86.005,1.52,86,1.5,86 c-0.128,0-0.25,0.021-0.369,0.051C0.482,86.217,0,86.8,0,87.5v4C0,92.328,0.672,93,1.5,93h97c0.828,0,1.5-0.672,1.5-1.5v-4 C100,86.777,99.489,86.176,98.81,86.033z"/>
+        <path class="bell-left" d="M13,46v27c0,6.652-4.999,12.222-11.443,13.006C1.537,86.005,1.52,86,1.5,86c-0.128,0-0.25,0.021-0.369,0.051 C0.482,86.217,0,86.8,0,87.5v4C0,92.328,0.672,93,1.5,93H50V9C29.565,9,13,25.565,13,46z"/>
+    </g>
+</svg>

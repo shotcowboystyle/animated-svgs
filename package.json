@@ -1,0 +1,20 @@
+{
+	"private": true,
+	"name": "@slapdoodle/icons",
+	"engines": {
+		"node": ">= 6.11.1",
+		"yarn": ">= 1.0.0"
+	},
+	"scripts": {
+		"icons:build": "lerna run --scope=icons build --stream",
+		"icons:release": "lerna run --scope=icons release --stream",
+		"docs:start": "lerna run --scope=docs start --stream",
+		"docs:build": "lerna run --scope=docs build --stream"
+	},
+	"workspaces": [
+		"packages/*"
+	],
+	"devDependencies": {
+		"lerna": "^2.8.0"
+	}
+}

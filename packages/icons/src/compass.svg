@@ -1,0 +1,117 @@
+<svg id="culture-icon-svg" xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+    <style>
+        /* <![CDATA[ */
+            .dial {
+                clip-rule: evenodd;
+                fill-rule: evenodd;
+                fill: #F0C400;
+            }
+
+            .housing {
+                clip-rule: evenodd;
+                fill-rule: evenodd;
+                fill: #F8F8F8;
+            }
+
+            .needle-base-outer,
+            .needle-base-inner,
+            .declination-mark {
+                clip-rule: evenodd;
+                fill-rule: evenodd;
+                fill: #BABABA;
+            }
+
+            .needle-screw {
+                clip-rule: evenodd;
+                fill-rule: evenodd;
+                fill: #424649;
+            }
+
+            .needle-south {
+                clip-rule: evenodd;
+                fill-rule: evenodd;
+                fill: #109CAC;
+            }
+            .needle-north {
+                clip-rule: evenodd;
+                fill-rule: evenodd;
+                fill: #F15E29;
+            }
+
+            .group-needle {
+                -webkit-transform: translate(80px, 80px);
+                -moz-transform: translate(80px, 80px);
+                transform: translate(80px, 80px);
+            }
+            .group-needle-animation > *{
+                -webkit-transform: translate(-80px, -80px);
+                -moz-transform: translate(-80px, -80px);
+                transform: translate(-80px, -80px);
+
+                -webkit-transform-origin: 0 0;
+                -moz-transform-origin: 0 0;
+                transform-origin: 0 0;
+            }
+
+            #culture-icon-svg:hover .group-needle-animation {
+                -webkit-animation: compass-needle-spin 8s 0s ease infinite;
+                -moz-animation: compass-needle-spin 8s 0s ease infinite;
+                animation: compass-needle-spin 8s 0s ease infinite;
+            }
+
+            @-webkit-keyframes compass-needle-spin {
+                0% { -webkit-transform: rotate(0); }
+                10% { -webkit-transform: rotate(720deg); }
+                35% { -webkit-transform: rotate(30deg); }
+                47% { -webkit-transform: rotate(55deg); }
+                55% { -webkit-transform: rotate(40deg); }
+                63% { -webkit-transform: rotate(50deg); }
+                71% { -webkit-transform: rotate(42deg); }
+                78% { -webkit-transform: rotate(47deg); }
+                82% { -webkit-transform: rotate(45deg); }
+                100% { -webkit-transform: rotate(45deg); }
+            }
+
+            @-moz-keyframes compass-needle-spin {
+                0% { -moz-transform: rotate(0); }
+                10% { -moz-transform: rotate(720deg); }
+                35% { -moz-transform: rotate(30deg); }
+                47% { -moz-transform: rotate(55deg); }
+                55% { -moz-transform: rotate(40deg); }
+                63% { -moz-transform: rotate(50deg); }
+                71% { -moz-transform: rotate(42deg); }
+                78% { -moz-transform: rotate(47deg); }
+                82% { -moz-transform: rotate(45deg); }
+                100% { -moz-transform: rotate(45deg); }
+            }
+
+            @keyframes compass-needle-spin {
+                0% { transform: rotate(0); }
+                10% { transform: rotate(720deg); }
+                35% { transform: rotate(30deg); }
+                47% { transform: rotate(55deg); }
+                55% { transform: rotate(40deg); }
+                63% { transform: rotate(50deg); }
+                71% { transform: rotate(42deg); }
+                78% { transform: rotate(47deg); }
+                82% { transform: rotate(45deg); }
+                100% { transform: rotate(45deg); }
+            }
+        /* ]]> */
+    </style>
+    <path class="dial" d="M80.439,154.999c-41.6,0.167-75.134-32.971-75.438-74.544 C4.7,39.026,38.144,5.18,79.559,5c41.562-0.174,75.108,32.98,75.438,74.569C155.327,121.023,121.907,154.834,80.439,154.999z"/>
+    <path class="housing" d="M79.97,21.828c32.725-0.023,58.527,25.807,58.396,58.475 c-0.125,32.415-26.765,58.735-58.938,58.233c-32.081-0.498-57.64-26.232-57.777-58.171C21.511,47.654,47.212,21.856,79.97,21.828z"/>
+    <g class="group-needle">
+        <g class="group-needle-animation">
+            <path class="needle-base-outer" d="M95.333,76.452c0,6.068-13.093,18.667-19.161,18.667 c-6.078,0-10.505-4.516-10.505-10.584c0-6.078,13.923-18.893,20.001-18.893C91.736,65.643,95.333,70.374,95.333,76.452z"/>
+            <polygon class="needle-south" points="93.773,70.191 70.258,93.331 115.173,115.425 "/>
+            <polygon class="needle-north" points="90.332,66.75 67.192,90.266 45.099,45.351 "/>
+            <path class="needle-base-inner" d="M91.168,80.123c0,6.068-4.928,10.996-10.996,10.996 c-6.078,0-11.004-4.928-11.004-10.996c0-6.078,4.926-11.004,11.004-11.004C86.24,69.119,91.168,74.045,91.168,80.123z"/>
+            <path class="needle-screw" d="M85.668,80.121c0,3.034-2.464,5.498-5.498,5.498 c-3.039,0-5.502-2.464-5.502-5.498c0-3.039,2.463-5.502,5.502-5.502C83.204,74.619,85.668,77.082,85.668,80.121z"/>
+        </g>
+    </g>
+    <circle class="declination-mark" cx="80.27" cy="30.639" r="3.27"/>
+    <circle class="declination-mark" cx="32.27" cy="80.639" r="3.27"/>
+    <circle class="declination-mark" cx="131.27" cy="80.639" r="3.27"/>
+    <circle class="declination-mark" cx="80.27" cy="129.639" r="3.27"/>
+</svg>
