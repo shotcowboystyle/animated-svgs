@@ -1,10 +1,6 @@
 {
 	"private": true,
 	"name": "@slapdoodle/icons",
-	"engines": {
-		"node": ">= 6.11.1",
-		"yarn": ">= 1.0.0"
-	},
 	"scripts": {
 		"icons:build": "lerna run --scope=icons build --stream",
 		"icons:release": "lerna run --scope=icons release --stream",

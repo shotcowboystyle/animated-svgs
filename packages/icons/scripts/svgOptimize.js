@@ -6,7 +6,29 @@ const lodash = require('lodash');
 const path = require('path');
 const SVGO = require('svgo');
 
-const svgo = new SVGO({});
+const svgo = new SVGO({
+  // plugins: [{
+  //   cleanupIDs: false,
+  // }, {
+  //   removeUselessDefs: false,
+  // }, {
+  //   minifyStyles: false,
+  // }, {
+  //   removeHiddenElems: false,
+  // }, {
+  //   removeEmptyAttrs: false,
+  // }, {
+  //   removeStyleElement: false,
+  // }, {
+  //   removeUnknownsAndDefaults: false,
+  // }, {
+  //   removeMetadata: false,
+  // }, {
+  //   removeUnusedNS: false,
+  // }, {
+  //   cleanupAttrs: true,
+  // }]
+});
 
 // Get the icon name
 const getName = (filepath) => path.basename(filepath, path.extname(filepath));

@@ -1,38 +1,40 @@
-<svg id="settings-icon" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 150 200">
-    <style>
-        /* <![CDATA[ */
-            #settings-icon {
-                margin-top: 25px;
-            }
+<svg id="icon-settings" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 150 200">
+    <defs>
+        <style type="text/css">
+            <![CDATA[
+                #icon-settings {
+                    margin-top: 25px;
+                }
 
-            .right-tip-one,
-            .right-tip-two,
-            .right-tip-three {
-                fill: #C6C4C3;
-            }
+                .right-tip-one,
+                .right-tip-two,
+                .right-tip-three {
+                    fill: #C6C4C3;
+                }
 
-            .right-outer {
-                fill: #C6C4C3;
-            }
-            .right-outer-shadow {
-                fill: #231F20;
-                opacity: 0.1;
-            }
+                .right-outer {
+                    fill: #C6C4C3;
+                }
+                .right-outer-shadow {
+                    fill: #231F20;
+                    opacity: 0.1;
+                }
 
-            .left-outer {
-                fill: #C6C4C3;
-            }
+                .left-outer {
+                    fill: #C6C4C3;
+                }
 
-            .left-inner {
-                fill: #C6C4C3;
-            }
-            .left-inner-shadow {
-                fill: #231F20;
-                opacity: 0.1;
-            }
-            #settings-icon:hover {}
-        /* ]]> */
-    </style>
+                .left-inner {
+                    fill: #C6C4C3;
+                }
+                .left-inner-shadow {
+                    fill: #231F20;
+                    opacity: 0.1;
+                }
+                #icon-settings:hover {}
+            ]]>
+        </style>
+    </defs>
     <g>
         <path class="right-tip-three" d="M109,125.969l5.717,5.521c2.664,2.664,7.089,2.437,9.751-0.228l6.085-6.262H109V125.969z"/>
         <path class="right-tip-two" d="M143.863,61h-8.371H135v14h15v-7.5C150,63.734,147.629,61,143.863,61z"/>
@@ -49,8 +51,8 @@
             to="360 75 75"
             dur="4s"
             repeatCount="indefinite"
-            begin="settings-icon.mouseover"
-            end="settings-icon.mouseout"
+            begin="icon-settings.mouseover"
+            end="icon-settings.mouseout"
         />
     </g>
 </svg>

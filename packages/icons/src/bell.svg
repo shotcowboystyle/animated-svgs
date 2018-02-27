@@ -1,114 +1,116 @@
 <svg id="bell-icon" xmlns="http://www.w3.org/2000/svg" width="200" height="160" viewBox="0 0 100 160">
-    <style>
-        /* <![CDATA[ */
-            #bell-icon {
-                position: absolute;
-                top: 50%;
-                margin-top: -50px
-            }
+    <defs>
+        <style type="text/css">
+            <![CDATA[
+                #bell-icon {
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -50px;
+                }
 
-            .crown {
-                fill: none;
-                stroke: #AA9A3E;
-                stroke-width: 2;
-                stroke-miterlimit: 10
-            }
+                .crown {
+                    fill: none;
+                    stroke: #AA9A3E;
+                    stroke-width: 2;
+                    stroke-miterlimit: 10;
+                }
 
-            .clapper {
-                fill: #AA9A3E;
-            }
+                .clapper {
+                    fill: #AA9A3E;
+                }
 
-            .bell-right {
-                fill: #E2CD52;
-            }
+                .bell-right {
+                    fill: #E2CD52;
+                }
 
-            .bell-left {
-                fill: #FFEC5A;
-            }
+                .bell-left {
+                    fill: #FFEC5A;
+                }
 
-            .group-clapper {
-                -webkit-transform: translateX(0px);
-            }
+                .group-clapper {
+                    -webkit-transform: translateX(0px);
+                }
 
-            #bell-icon:hover .group-clapper {
-                -webkit-animation: clapper-ring2 8s 0s ease-in-out infinite;
-                -webkit-transform-origin: 50% 4px;
-            }
+                #bell-icon:hover .group-clapper {
+                    -webkit-animation: clapper-ring2 8s 0s ease-in-out infinite;
+                    -webkit-transform-origin: 50% 4px;
+                }
 
-            @-webkit-keyframes clapper-ring {
-                0% { -webkit-transform: translateX(3px); }
-                100% { -webkit-transform: translateX(-3px); }
-            }
+                @-webkit-keyframes clapper-ring {
+                    0% { -webkit-transform: translateX(3px); }
+                    100% { -webkit-transform: translateX(-3px); }
+                }
 
-            @-webkit-keyframes clapper-ring2 {
-                0% { -webkit-transform: rotate(0); }
-                1% { -webkit-transform: rotate(30deg) translateX(3px); }
-                3% { -webkit-transform: rotate(-28deg) translateX(-3px); }
-                5% { -webkit-transform: rotate(34deg) translateX(3px); }
-                7% { -webkit-transform: rotate(-32deg) translateX(-3px); }
-                9% { -webkit-transform: rotate(30deg) translateX(3px); }
-                11% { -webkit-transform: rotate(-28deg) translateX(-3px); }
-                13% { -webkit-transform: rotate(26deg) translateX(3px); }
-                15% { -webkit-transform: rotate(-24deg) translateX(-3px); }
-                17% { -webkit-transform: rotate(22deg) translateX(3px); }
-                19% { -webkit-transform: rotate(-20deg) translateX(-3px); }
-                21% { -webkit-transform: rotate(18deg) translateX(3px); }
-                23% { -webkit-transform: rotate(-16deg) translateX(-3px); }
-                25% { -webkit-transform: rotate(14deg) translateX(3px); }
-                27% { -webkit-transform: rotate(-12deg) translateX(-3px); }
-                29% { -webkit-transform: rotate(10deg) translateX(3px); }
-                31% { -webkit-transform: rotate(-8deg) translateX(-3px); }
-                33% { -webkit-transform: rotate(6deg) translateX(3px); }
-                35% { -webkit-transform: rotate(-4deg) translateX(-3px); }
-                37% { -webkit-transform: rotate(2deg) translateX(3px); }
-                39% { -webkit-transform: rotate(-1deg) translateX(-3px); }
-                41% { -webkit-transform: rotate(1deg) translateX(3px); }
-                43% { -webkit-transform: rotate(0); }
-                100% { -webkit-transform: rotate(0); }
-            }
+                @-webkit-keyframes clapper-ring2 {
+                    0% { -webkit-transform: rotate(0); }
+                    1% { -webkit-transform: rotate(30deg) translateX(3px); }
+                    3% { -webkit-transform: rotate(-28deg) translateX(-3px); }
+                    5% { -webkit-transform: rotate(34deg) translateX(3px); }
+                    7% { -webkit-transform: rotate(-32deg) translateX(-3px); }
+                    9% { -webkit-transform: rotate(30deg) translateX(3px); }
+                    11% { -webkit-transform: rotate(-28deg) translateX(-3px); }
+                    13% { -webkit-transform: rotate(26deg) translateX(3px); }
+                    15% { -webkit-transform: rotate(-24deg) translateX(-3px); }
+                    17% { -webkit-transform: rotate(22deg) translateX(3px); }
+                    19% { -webkit-transform: rotate(-20deg) translateX(-3px); }
+                    21% { -webkit-transform: rotate(18deg) translateX(3px); }
+                    23% { -webkit-transform: rotate(-16deg) translateX(-3px); }
+                    25% { -webkit-transform: rotate(14deg) translateX(3px); }
+                    27% { -webkit-transform: rotate(-12deg) translateX(-3px); }
+                    29% { -webkit-transform: rotate(10deg) translateX(3px); }
+                    31% { -webkit-transform: rotate(-8deg) translateX(-3px); }
+                    33% { -webkit-transform: rotate(6deg) translateX(3px); }
+                    35% { -webkit-transform: rotate(-4deg) translateX(-3px); }
+                    37% { -webkit-transform: rotate(2deg) translateX(3px); }
+                    39% { -webkit-transform: rotate(-1deg) translateX(-3px); }
+                    41% { -webkit-transform: rotate(1deg) translateX(3px); }
+                    43% { -webkit-transform: rotate(0); }
+                    100% { -webkit-transform: rotate(0); }
+                }
 
-            @-webkit-keyframes bell-ring2 {
-                0% { -webkit-transform: rotate(0); }
-                1% { -webkit-transform: rotate(30deg); }
-                3% { -webkit-transform: rotate(-28deg); }
-                5% { -webkit-transform: rotate(34deg); }
-                7% { -webkit-transform: rotate(-32deg); }
-                9% { -webkit-transform: rotate(30deg); }
-                11% { -webkit-transform: rotate(-28deg); }
-                13% { -webkit-transform: rotate(26deg); }
-                15% { -webkit-transform: rotate(-24deg); }
-                17% { -webkit-transform: rotate(22deg); }
-                19% { -webkit-transform: rotate(-20deg); }
-                21% { -webkit-transform: rotate(18deg); }
-                23% { -webkit-transform: rotate(-16deg); }
-                25% { -webkit-transform: rotate(14deg); }
-                27% { -webkit-transform: rotate(-12deg); }
-                29% { -webkit-transform: rotate(10deg); }
-                31% { -webkit-transform: rotate(-8deg); }
-                33% { -webkit-transform: rotate(6deg); }
-                35% { -webkit-transform: rotate(-4deg); }
-                37% { -webkit-transform: rotate(2deg); }
-                39% { -webkit-transform: rotate(-1deg); }
-                41% { -webkit-transform: rotate(1deg); }
-                43% { -webkit-transform: rotate(0); }
-                100% { -webkit-transform: rotate(0); }
-            }
+                @-webkit-keyframes bell-ring2 {
+                    0% { -webkit-transform: rotate(0); }
+                    1% { -webkit-transform: rotate(30deg); }
+                    3% { -webkit-transform: rotate(-28deg); }
+                    5% { -webkit-transform: rotate(34deg); }
+                    7% { -webkit-transform: rotate(-32deg); }
+                    9% { -webkit-transform: rotate(30deg); }
+                    11% { -webkit-transform: rotate(-28deg); }
+                    13% { -webkit-transform: rotate(26deg); }
+                    15% { -webkit-transform: rotate(-24deg); }
+                    17% { -webkit-transform: rotate(22deg); }
+                    19% { -webkit-transform: rotate(-20deg); }
+                    21% { -webkit-transform: rotate(18deg); }
+                    23% { -webkit-transform: rotate(-16deg); }
+                    25% { -webkit-transform: rotate(14deg); }
+                    27% { -webkit-transform: rotate(-12deg); }
+                    29% { -webkit-transform: rotate(10deg); }
+                    31% { -webkit-transform: rotate(-8deg); }
+                    33% { -webkit-transform: rotate(6deg); }
+                    35% { -webkit-transform: rotate(-4deg); }
+                    37% { -webkit-transform: rotate(2deg); }
+                    39% { -webkit-transform: rotate(-1deg); }
+                    41% { -webkit-transform: rotate(1deg); }
+                    43% { -webkit-transform: rotate(0); }
+                    100% { -webkit-transform: rotate(0); }
+                }
 
-            .group-bell {
-                -webkit-transform: rotate(0);
-            }
+                .group-bell {
+                    -webkit-transform: rotate(0);
+                }
 
-            #bell-icon:hover .group-bell {
-                -webkit-animation: bell-ring2 8s 0s ease-in-out infinite;
-                -webkit-transform-origin: 50% 4px;
-            }
+                #bell-icon:hover .group-bell {
+                    -webkit-animation: bell-ring2 8s 0s ease-in-out infinite;
+                    -webkit-transform-origin: 50% 4px;
+                }
 
-            @-webkit-keyframes bell-ring {
-                0% { -webkit-transform: rotate(27deg); }
-                100% { -webkit-transform: rotate(-27deg); }
-            }
-        /* ]]> */
-    </style>
+                @-webkit-keyframes bell-ring {
+                    0% { -webkit-transform: rotate(27deg); }
+                    100% { -webkit-transform: rotate(-27deg); }
+                }
+            ]]>
+        </style>
+    </defs>
     <g class="group-clapper">
         <circle class="clapper" cx="49.7" cy="93" r="10"/>
     </g>

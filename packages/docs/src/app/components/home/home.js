@@ -4,6 +4,12 @@ import ReactLogo from "src/resources/images/reactjs.svg";
 import SmallImage from "src/resources/images/mario-large.png?sizes=100w+200w+400w+800w&placeholder";
 import Picture from "pawjs/src/components/picture/picture";
 
+import IconBell from '../../../../../icons/build/react-icons/bell';
+import IconCompass from '../../../../../icons/build/react-icons/compass';
+import IconHome from '../../../../../icons/build/react-icons/home';
+import IconNewspaper from '../../../../../icons/build/react-icons/newspaper';
+import IconSettings from '../../../../../icons/build/react-icons/settings';
+
 export default class Home extends Component {
   render() {
     return (
@@ -20,7 +26,7 @@ export default class Home extends Component {
           magna gravida posuere. Sed at velit at est dictum mollis. Pellentesque
           ullamcorper dapibus nulla, efficitur pharetra nisi sodales ut.
         </p>
-        <Fold placeholder={() => <div className="text-center mt-3 mb-3">Loading folded content.. Please wait..</div>}>
+        {/* <Fold placeholder={() => <div className="text-center mt-3 mb-3">Loading folded content.. Please wait..</div>}>
           <p>
             Cras at elementum magna. Proin sed vulputate erat. Quisque magna nibh,
             posuere in mattis id, consectetur non nunc. Sed sodales diam risus,
@@ -40,7 +46,27 @@ export default class Home extends Component {
             alt="Small Image"
             imgClassName="mw-100"
           />
-        </Fold>
+        </Fold> */}
+        <IconBell
+          className="icon-bell"
+          style={{ height: '10em', width: '10em' }}
+        />
+        <IconCompass
+          className="icon-compass"
+          style={{ height: '10em', width: '10em' }}
+        />
+        <IconHome
+          className="icon-home"
+          style={{ height: '10em', width: '10em' }}
+        />
+        <IconNewspaper
+          className="icon-newspaper"
+          style={{ height: '10em', width: '10em' }}
+        />
+        <IconSettings
+          className="icon-settings"
+          style={{ height: '10em', width: '10em' }}
+        />
       </div>
     );
   }

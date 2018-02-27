@@ -1,63 +1,65 @@
 <svg id="home-icon" xmlns="http://www.w3.org/2000/svg" width="150" height="152.234" viewBox="0 0 150 152.234">
-    <style>
-        /* <![CDATA[ */
-            .roof-left {
-                fill: #F15E29;
-            }
+    <defs>
+        <style type="text/css">
+            <![CDATA[
+                .roof-left {
+                    fill: #F15E29;
+                }
 
-            .wall-left {
-                fill: #F8F8F8;
-            }
+                .wall-left {
+                    fill: #F8F8F8;
+                }
 
-            .house-shadow {
-                fill: #231F20;
-                opacity: 0.2;
-            }
+                .house-shadow {
+                    fill: #231F20;
+                    opacity: 0.2;
+                }
 
-            .window {
-                fill: #109CAC;
-            }
+                .window {
+                    fill: #109CAC;
+                }
 
-            .door {
-                fill: #C87229;
-            }
+                .door {
+                    fill: #C87229;
+                }
 
-            #home-icon:hover .group-door {
-                -webkit-animation: open-door 1s ease-in-out;
-                -webkit-transform-origin: 5% 0;
-            }
+                #home-icon:hover .group-door {
+                    -webkit-animation: open-door 1s ease-in-out;
+                    -webkit-transform-origin: 5% 0;
+                }
 
-            @-webkit-keyframes open-door {
-                0% { -webkit-transform: rotateY(0deg); }
-                100% { -webkit-transform: rotateY(90deg); }
-            }
+                @-webkit-keyframes open-door {
+                    0% { -webkit-transform: rotateY(0deg); }
+                    100% { -webkit-transform: rotateY(90deg); }
+                }
 
-            .chimney {
-                fill: #F15E29;
-            }
+                .chimney {
+                    fill: #F15E29;
+                }
 
-            .door-shadow {
-                fill: #231F20;
-                opacity: 0.3;
-            }
+                .door-shadow {
+                    fill: #231F20;
+                    opacity: 0.3;
+                }
 
-            .roof-shadow,
-            .chimney-shadow,
-            .window-shadow {
-                fill: #231F20;
-                opacity: 0.3;
-            }
+                .roof-shadow,
+                .chimney-shadow,
+                .window-shadow {
+                    fill: #231F20;
+                    opacity: 0.3;
+                }
 
-            .door-knob {
-                fill: #8F5322;
-            }
+                .door-knob {
+                    fill: #8F5322;
+                }
 
-            .house-shadow-overlay {
-                fill: #231F20;
-                opacity: 0.1;
-            }
-        /* ]]> */
-    </style>
+                .house-shadow-overlay {
+                    fill: #231F20;
+                    opacity: 0.1;
+                }
+            ]]>
+        </style>
+    </defs>
     <g>
         <path class="roof-left" d="M147.796,69.671L80.329,2.202C78.858,0.731,76.927-0.002,75,0c-1.928-0.002-3.857,0.731-5.329,2.202 L2.202,69.671c-2.937,2.937-2.937,7.698,0,10.636l5.982,5.982c2.937,2.936,7.699,2.936,10.636,0L75,30.109l56.18,56.18 c2.937,2.936,7.698,2.936,10.636,0l5.981-5.982C150.734,77.369,150.734,72.607,147.796,69.671z"/>
         <path class="wall-left" d="M131.179,86.289L75,30.109L18.82,86.289c-0.38,0.379-0.792,0.707-1.225,0.989v55.556 c0,4.152,3.367,7.521,7.521,7.521h99.766c4.154,0,7.521-3.368,7.521-7.521V87.278C131.97,86.996,131.559,86.668,131.179,86.289z"/>

@@ -73,6 +73,7 @@ const createReactPackage = (svgs, version) => {
     const source = getReactSource({ componentName, width, height, svgPaths });
     const filepath = `${name}.js`;
 
+    console.error('SVG ###########', svg);
     return { filepath, source };
   });
 
